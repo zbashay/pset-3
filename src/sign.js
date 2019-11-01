@@ -9,15 +9,15 @@ if (Number.isNaN(number)) {
     console.log("\nInvalid")
   }
    else if (number < MIN || number > MAX) {
-      console.log("\nInvalid")
+      console.log("\nInvalid.")
 }
 
   else if (number > 0){
-    console.log("\nPositive")
+    console.log("\nPositive.")
 }
 else if (number < 0){
-  console.log("\nNegative")
+  console.log("\nNegative.")
 }
 else {
-  console.log("\nZero")
+  console.log("\nZero.")
 }
