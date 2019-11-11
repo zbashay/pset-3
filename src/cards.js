@@ -73,3 +73,4 @@ switch (firstSuit) {
 
 console.log("\n" + secondRank + " of " + secondSuit)
 }
+console.log("")

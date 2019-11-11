@@ -29,3 +29,4 @@ if ((month === "jan") || (month === "january")) {
   } else {
     console.log("\nInvalid.")
   }
+console.log("")

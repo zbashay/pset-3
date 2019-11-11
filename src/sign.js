@@ -16,3 +16,4 @@ if (Number.isNaN(number)) {
 } else {
   console.log("\nZero.")
 }
+console.log("")

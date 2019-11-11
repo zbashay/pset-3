@@ -6,7 +6,6 @@ const MAX = Number.MAX_SAFE_INTEGER;
 const temp = Number(readlineSync.question("\nEnter a temperature: "));
 let scale = readlineSync.question("Enter a scale: ").toLowerCase();
 
-
     if (Number.isNaN(temp)) {
     console.log("\nInvalid.")
   } else if (temp > MAX || temp < MIN) {
@@ -14,10 +13,7 @@ let scale = readlineSync.question("Enter a scale: ").toLowerCase();
   } else if (scale !== "f" && scale !== "c" && scale !== "k") {
     console.log("\nInvalid.")
   }
-
-
   else {
-
 if (scale === "f") {
       if (temp >= 212) {
       console.log("\nGas.")
@@ -46,3 +42,4 @@ if (scale === "k") {
   }
 }
 }
+console.log("")

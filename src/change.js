@@ -24,3 +24,4 @@ if (Number.isNaN(amount)) {
 
     console.log( "\n" + numOfQuarters + " quarters, " + numOfDimes + " dimes, " + numOfNickles + " nickles, and " + change3 + " pennies.")
 }
+console.log("")

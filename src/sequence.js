@@ -46,3 +46,4 @@ if (Number.isNaN(a)) {
   } else {
     console.log("\nDecreasing.")
   } }
+console.log("")

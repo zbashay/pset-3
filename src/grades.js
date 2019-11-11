@@ -20,3 +20,4 @@ const grade = Number(readlineSync.question("\nEnter a grade: "));
   } else if (grade >= 0 && grade <= 64) {
     console.log("\nYou recieved an F.")
   }
+console.log("")

@@ -15,3 +15,4 @@ if (Number.isNaN(integer)) {
 } else {
   console.log("\nEven.")
 }
+console.log("")

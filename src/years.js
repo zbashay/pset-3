@@ -14,3 +14,4 @@ const year = Number(readlineSync.question("\nEnter a year: "));
   } else {
     console.log("\n" + year + " is not a leap year.")
   }
+console.log("")

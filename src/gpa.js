@@ -7,12 +7,10 @@ let plusMinus = gpa.charAt(1);
 
 if (letter ==! "a" || letter ==! "b" || letter ==! "c" || letter ==! "d" || letter ==! "f") {
     console.log("\nInvalid.")
-  } else if (plusMinus ==! "+" || plusMinus ==! "-") {
+  } else { (plusMinus ==! "+" || plusMinus ==! "-")
     console.log("\nInvalid.")
   }
-
-
-else {
+  
     if (gpa === "a" || gpa === "a+") {
       console.log("\nYour GPA is 4.00");
   } else if (gpa === "a-") {
@@ -40,4 +38,5 @@ else {
   } else if (gpa === "f") {
     console.log("\nYour GPA is 0.00");
   }
-}
+
+console.log("")
